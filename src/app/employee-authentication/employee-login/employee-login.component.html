@@ -1,0 +1,12 @@
+<form class="example-form" [formGroup]="Logindata" (ngSubmit)="employeeLogin()">
+  <mat-form-field class="example-full-width">
+    <mat-label>First name</mat-label>
+    <input matInput placeholder="Ex. Pizza" value="Sushi" formControlName="firstName">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Password</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..." formControlName="Password"></textarea>
+  </mat-form-field>
+  <button type="submit" matButton>Login</button>
+</form>
