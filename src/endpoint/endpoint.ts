@@ -1,6 +1,7 @@
 import { enviourment } from "../enviourment/enviourment";
 
 export const endpoint = {
-emplpyee: enviourment.EmployeeUrl + '/'
+auth: enviourment.EmployeeUrl + '/authentication',
+emplpyee: enviourment.EmployeeUrl + '/Employee'
 
 }
